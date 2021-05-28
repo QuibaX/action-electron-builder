@@ -1,5 +1,5 @@
-name: Electron Builder Action
-author: Samuel Meuli
+name: Electron Builder Action S3
+author: Samuel Meuli / QuibaX
 description: GitHub Action for building and releasing Electron apps
 
 inputs:
