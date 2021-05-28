@@ -3,8 +3,11 @@ author: Samuel Meuli
 description: GitHub Action for building and releasing Electron apps
 
 inputs:
-  github_token:
-    description: GitHub authentication token
+  aws_access_key_id:
+    description: AWS Access Key Id
+    required: true
+  aws_access_key_secret:
+    description: AWS Access Key Secret
     required: true
   mac_certs:
     description: Base64-encoded code signing certificate for macOS
